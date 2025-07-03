@@ -1,0 +1,7 @@
+# api/views/booking/__init__.py
+
+from .booking_system_views import ListCreateBookingSystemView, RetrieveUpdateDestroyBookingSystemView, PauseBookingSystemView, ResumeBookingSystemView
+from .general_time_slot_views import ListCreateGeneralTimeSlotView, RetrieveUpdateDestroyGeneralTimeSlotView
+from .time_slot_views import ListCreateTimeSlotView, RetrieveUpdateDestroyTimeSlotView, CustomCreateTimeSlotView
+from .booking_views import ListCreateBookingView, RetrieveUpdateDestroyBookingView, AvailableTablesView, RetrieveUpdateBookingByCodeView, UserCreateBookingView, UserRetrieveUpdateBookingView
+from .booking_type_views import BookingTypesListCreateView, BookingTypesDeleteView
